@@ -123,7 +123,7 @@ void setup()
    *  BLE initilizations
    */
 
-  blePeripheral.setLocalName("relays");
+  blePeripheral.setLocalName("relays10");
   blePeripheral.setAdvertisedServiceUuid(relayService.uuid());
   blePeripheral.addAttribute(relayService);
   blePeripheral.addAttribute(relayCharacteristic);
